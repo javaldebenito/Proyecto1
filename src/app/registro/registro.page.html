@@ -1,0 +1,66 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Registro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title> Que quieres hacer en esta pagina?</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-radio-group>
+        <ion-list-header>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Comprar</ion-label>
+          <ion-radio value="Cliente" slot="start" ></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>Vender</ion-label>
+          <ion-radio value="Vendedor" slot="start" ></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title> Contacto </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-input type="Text" label="Nombre" labelPlacement="floating"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="email" label="Email" labelPlacement="floating"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="password" label="Password" labelPlacement="floating"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="Password" label="Confirmar Password" labelPlacement="floating"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="tel" label="Phone Number" labelPlacement="floating"></ion-input>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Adress Information</ion-card-title>
+    </ion-card-header>
+    <ion-item>
+      <ion-input type="Text" label="Adress" labelPlacement="floating"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="tel" label="Number" labelPlacement="floating"></ion-input>
+    </ion-item>
+    <ion-button color="success" size="full">Register</ion-button>
+  </ion-card>
+</ion-content>
+
